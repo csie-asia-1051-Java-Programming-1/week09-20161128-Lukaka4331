@@ -21,11 +21,11 @@ public class ex03 {
     	}  
     	
     }
-  
+	System.out.println();
     	if(tal==2){
-    		System.out.println("質數");
+    		System.out.print("質數");
     	}else{
-    		System.out.println("不是質數");
+    		System.out.print("不是質數");
     	}
     	
     	
