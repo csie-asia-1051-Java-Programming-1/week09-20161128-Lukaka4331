@@ -16,11 +16,20 @@ public class ex01 {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		Random ran = new Random();
+		int data[]= new int[6];
+		System.out.print("設定亂數:");
+		int n = scn.nextInt();
+		ran.setSeed(n);
 		for(int i = 0; i < 6; i++){
+			data[i] = ran.nextInt(42)+1;
 			for(int j = 0;j < i; j++){
+				if(data[i]==data[j]){
 					i--;
 				}
 			}
+		}System.out.println("樂透號碼:");
+		for(int i = 0; i < 6; i++){			
+			System.out.print(data[i] + " ");
 		}
 	}
 
