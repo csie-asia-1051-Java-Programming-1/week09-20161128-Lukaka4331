@@ -7,7 +7,7 @@ import java.util.Random;
 	Random ran = new Random();
 	rand.setSeed(23323456)
  * Date: 2016/11/28
- * Author: 1050210XX 周永振老師
+ * Author: 105021044 鐘岑哲
  */
 
 public class ex01 {
